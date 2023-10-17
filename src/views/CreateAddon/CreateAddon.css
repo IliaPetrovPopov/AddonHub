@@ -1,0 +1,45 @@
+/* 
+.info-wrapper {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.create-wrapper {
+  border-radius: 2cm;
+  padding: 2cm;
+  margin: 3.2cm;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+}
+
+.horizontal-line {
+    width: 100%;
+    border-top: 0.01cm solid rgb(220, 218, 218);
+    margin-top: 1cm; 
+    margin-bottom: 1cm;
+} */
+
+.tooltip-info {
+    font-weight: normal;
+}
+
+.tooltip-info i.icon-inside-section {
+    transition: transform 0.3s, font-size 0.3s;
+}
+
+.tooltip-info i.icon-inside-section:hover {
+    font-size: 1rem;
+    transform: scale(1.2); 
+  }
+
+.tooltip-info i.icon-on-section {
+    transition: transform 0.3s, font-size 0.3s; 
+}
+
+.tooltip-info i.icon-on-section:hover {
+    font-size: 1.3rem;
+    transform: scale(1.2); 
+}
+
+#info-icon-in-logo-section {
+    margin-left: 0.2cm;
+}

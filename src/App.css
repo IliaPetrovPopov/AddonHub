@@ -1,0 +1,11 @@
+.container {
+  min-height: 81vh;
+}
+
+footer {
+  /* position: fixed; */
+  bottom: 0;
+  /* margin-top: 3rem; */
+  width: 100%;
+  border-top-width: thin;
+}
